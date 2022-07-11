@@ -6,6 +6,7 @@ import exampleUserData from "./data/user.data";
 
 export const App = ({
     user: userData = exampleUserData,
+    displayName: display_name,
     themeConfigs = exampleThemeConfigs,
     icons: LinkStarIcons = ExampleLinkStarIcons,
     onClickLink
@@ -61,8 +62,7 @@ export const App = ({
 
                                         <div className="mt-10 font-semibold text-center text-white  md:text-lg">
                                             <div className="drop-shadow-md">
-                                                {userData.display_name ||
-                                                    userData.last_name + " " + userData.first_name}
+                                                {display_name || userData.last_name + " " + userData.first_name}
                                             </div>
                                             <div className="mt-1 drop-shadow-md">@{userData.username}</div>
                                         </div>
