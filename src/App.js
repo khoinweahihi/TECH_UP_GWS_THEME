@@ -60,7 +60,7 @@ export const App = ({
                                         </div> */}
 
                                         <div className="mt-10 font-semibold text-center text-white  md:text-lg">
-                                            <div className="drop-shadow-md">{userData.display_name}</div>
+                                            <div className="drop-shadow-md">{"ahihi do ngok"}</div>
                                             <div className="mt-1 drop-shadow-md">@{userData.username}</div>
                                         </div>
                                     </div>
